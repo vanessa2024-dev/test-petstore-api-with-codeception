@@ -1,0 +1,8 @@
+actor: PetTester
+suite_namespace: Tests\Pet
+modules:
+    # enable helpers as array
+    enabled: 
+        - REST:
+            url: https://petstore.swagger.io/v2
+            depends: PhpBrowser
